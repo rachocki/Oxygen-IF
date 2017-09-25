@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-103">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-361"/>
+  <item nodeId="node-103">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Welcome. For a brief tutorial, type "tutorial" and press enter. If you know how to play, begin typing commands below.&#x000A;&#x000A;Oxygen&#x000A;An Interactive Fiction by Hansi Berlin&#x000A;Release 1 / Serial number 170714 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;The Parlor&#x000A;A rather small front parlor, with a view of the lawn. Some dusty, old furniture is scattered around; it is of modest style. A faded oriental rug covers a small portion of the cold floor. The only exit is to the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-104"/>
+      <child nodeId="node-115"/>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are unstable. Looking down at yourself, you see that you are shaking slightly. By a conscious effort, you manage to make youself calm down, but you are still uneasy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-105"/>
+      <child nodeId="node-107"/>
+      <child nodeId="node-338"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">take inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a burgundy waistcoat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">take off waistcoat</command>
+    <result xml:space="preserve">You take off the burgundy waistcoat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">examine moon</command>
+    <result xml:space="preserve">The pale moonlight streams through the windows, reminding you of what you've done.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are paranoid. Looking down at yourself, you see that you are paler than usual, and a bit more wasted. It's this house. It has to be this house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">think</command>
+    <result xml:space="preserve">What a good idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are losing it. Looking down at yourself, you see a pale, nearly skeletal being. Looking upon yourself is akin to looking at death its self.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">examine moon</command>
+    <result xml:space="preserve">The pale moonlight streams through the windows, reminding you of what you've done.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are clinically insane. Looking down at yourself, you see the odd perversion of the human form that is supposed to pass as your body. You can see your pulse in your hands, carrying on obliviously. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">think </command>
+    <result xml:space="preserve">What a good idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are raving mad. Looking down at yourself, you see the red colour of your waistcoat begins to run, following the lines of your veins, pulsing along with your blood. The more you try to wipe away the stains with your hands, the more they begin to bleed. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-338">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a burgundy waistcoat (being worn)&#x000A;  a black trousers (being worn)&#x000A;  a broken pocketwatch (being worn)&#x000A;  a handkerchief&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-339"/>
+    </children>
+  </item>
+  <item nodeId="node-339">
+    <command xml:space="preserve">examine waistcoat</command>
+    <result xml:space="preserve">A dark red waistcoat, the only one you had the presence of mind to bring with you, apparently.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-340"/>
+    </children>
+  </item>
+  <item nodeId="node-340">
+    <command xml:space="preserve">examine trousers</command>
+    <result xml:space="preserve">A pair of normal, black trousers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-341"/>
+    </children>
+  </item>
+  <item nodeId="node-341">
+    <command xml:space="preserve">examine watch</command>
+    <result xml:space="preserve">A silver pocketwatch that hasn't been working properly for years.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-342"/>
+    </children>
+  </item>
+  <item nodeId="node-342">
+    <command xml:space="preserve">think about watch</command>
+    <result xml:space="preserve">It stopped working properly after it was dropped into a washbasin, many years ago. You really don't want to think about that event...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-343"/>
+    </children>
+  </item>
+  <item nodeId="node-343">
+    <command xml:space="preserve">think about event</command>
+    <result xml:space="preserve">You can't quite remember what precisely went on, but you feel distinctly traumatized whenever you think about that night so many years ago. The most you can recall is the sound of gunfire and a child's crying.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-344"/>
+    </children>
+  </item>
+  <item nodeId="node-344">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are paranoid. Looking down at yourself, you see that you are paler than usual, and a bit more wasted. It's this house. It has to be this house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-345"/>
+    </children>
+  </item>
+  <item nodeId="node-345">
+    <command xml:space="preserve">think about moon</command>
+    <result xml:space="preserve">The same old moon that has doubtless watched millions of events like the one you have experienced.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-346"/>
+    </children>
+  </item>
+  <item nodeId="node-346">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are paranoid. Looking down at yourself, you see that you are paler than usual, and a bit more wasted. It's this house. It has to be this house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-347"/>
+    </children>
+  </item>
+  <item nodeId="node-347">
+    <command xml:space="preserve">think about self</command>
+    <result xml:space="preserve">You find yourself kind of pathetic at the moment. An old manservant lurking about the house he once served.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-348"/>
+    </children>
+  </item>
+  <item nodeId="node-348">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are paranoid. Looking down at yourself, you see that you are paler than usual, and a bit more wasted. It's this house. It has to be this house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-349"/>
+    </children>
+  </item>
+  <item nodeId="node-349">
+    <command xml:space="preserve">think about master</command>
+    <result xml:space="preserve">Through all of this, all these years, the master is the one thing you can remember properly. A tall man, of middle age, with iron gray hair and a serious face. He walked with a limp, due to an injury sustained in some vague accident he never spoke of. And then, standing at the top of the stairs, staring at you with a cruel look you hadn't thought him capable of until you saw it for yourself.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-350"/>
+    </children>
+  </item>
+  <item nodeId="node-350">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">You are losing it. Looking down at yourself, you see a pale, nearly skeletal being. Looking upon yourself is akin to looking at death its self.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-351"/>
+    </children>
+  </item>
+  <item nodeId="node-351">
+    <command xml:space="preserve">attack self</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-352"/>
+    </children>
+  </item>
+  <item nodeId="node-352">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-353"/>
+    </children>
+  </item>
+  <item nodeId="node-353">
+    <command xml:space="preserve">to west</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-354"/>
+    </children>
+  </item>
+  <item nodeId="node-354">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Hall&#x000A;A slight, but piercingly cold draft wafts through the cave-like room, which is tastefully, if not coldly, decorated. The staircase leads to the darkness of the second floor, which seems to be observing you somehow. Every direction except the north, the southeast and the southwest has an exit, shrouded in obscurity that makes you very reluctant to enter any of them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-355"/>
+    </children>
+  </item>
+  <item nodeId="node-355">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Music Room&#x000A;You can remember short snippets of the music that  once played here. It saddens you immensely, knowing full well that such music will never again grace this house.The conservatory is to the west, and the hall is to the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-356"/>
+    </children>
+  </item>
+  <item nodeId="node-356">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">The Hall&#x000A;A slight, but piercingly cold draft wafts through the cave-like room, which is tastefully, if not coldly, decorated. The staircase leads to the darkness of the second floor, which seems to be observing you somehow. Every direction except the north, the southeast and the southwest has an exit, shrouded in obscurity that makes you very reluctant to enter any of them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-357"/>
+    </children>
+  </item>
+  <item nodeId="node-357">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">The Parlor&#x000A;A rather small front parlor, with a view of the lawn. Some dusty old furniture is shaded in the darkened corners, like animals waiting to pounce. The room has an odd sense of life to it, and it is certainly not a benevolent existence. The only exit, to the west, seems vaguely threatening.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-358"/>
+    </children>
+  </item>
+  <item nodeId="node-358">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Hall&#x000A;A slight, but piercingly cold draft wafts through the cave-like room, which is tastefully, if not coldly, decorated. The staircase leads to the darkness of the second floor, which seems to be observing you somehow. Every direction except the north, the southeast and the southwest has an exit, shrouded in obscurity that makes you very reluctant to enter any of them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-359"/>
+    </children>
+  </item>
+  <item nodeId="node-359">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-360"/>
+    </children>
+  </item>
+  <item nodeId="node-360">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">The Dining Room&#x000A;A large, dim room, with too many blind spots for you to be at ease. (Exits to the southwest and the north.)&#x000A;&#x000A;A fine layer of dust covers everything, as seems to be true of everything in the house.&#x000A;&#x000A;A tattered tablecloth runs the length of the table, one that you dimly remember seeing before.&#x000A;&#x000A;A big, oval-shaped table takes up most of the room. Even now it is in good shape, a testament to its workmanship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-361"/>
+    </children>
+  </item>
+  <item nodeId="node-361">
+    <command xml:space="preserve">wear tablecloth</command>
+    <result xml:space="preserve">(first taking the tattered tablecloth)&#x000A;Sending up a cloud of dust, you remove the tablecloth from the table.&#x000A;&#x000A;You wrap the tablecloth about yourself like a cloak.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">examine rug</command>
+    <result xml:space="preserve">Its once intricate patterns have faded almost to obscurity, the constant light having leeched the formerly brilliant dyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">examine moon</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">look at moon</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">examine self</command>
+    <result xml:space="preserve">Looking down at yourself, you see that you are shaking slightly. By a conscious effort, you manage to make youself calm down, but you are still uneasy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">examine furniture</command>
+    <result xml:space="preserve">A dusty old couch, a tattered chaise longue... None of it really anything out of the ordinary.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-120"/>
+      <child nodeId="node-123"/>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">examine carpet</command>
+    <result xml:space="preserve">Its once intricate patterns have faded almost to obscurity, the constant light having leeched the formerly brilliant dyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">examine lawn</command>
+    <result xml:space="preserve">The full moon illuminates the damp grass. The soft, rolling hills are cut off suddenly by the iron fence that encloses the property.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">examine moon</command>
+    <result xml:space="preserve">The pale moonlight streams through the windows, reminding you of what you've done.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">take apart furniture</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">take furniture apart</command>
+    <result xml:space="preserve">Being somewhat broken after such a long time without maintainance, it is easy to take apart.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">examine furniture</command>
+    <result xml:space="preserve">A large pile of wood and stuffing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">sit on furniture</command>
+    <result xml:space="preserve">It seems too fragile to do that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">tap furniture</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">take apart furniture</command>
+    <result xml:space="preserve">Being somewhat broken after such a long time without maintainance, it is easy to take apart.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">pick up furniture</command>
+    <result xml:space="preserve">You haven't any use for it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">take rug</command>
+    <result xml:space="preserve">It's too cumbersome to carry around with you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">kick rug</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Hall&#x000A; An attractive, tasteful room. The high ceilings conceal years of cobwebs. A large staircase leads to the shadowy reaches of the second floor. Being the heart of the house, there are exits in every direction besides the north, the southwest, and southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">The Dining Room&#x000A;A dining room that is a bit larger than usual, but, like the hall, very tastefully adorned. Simple mouldings are present around the ceiling, and the deep rose colour of the walls imparts a sense of calm. The kitchen is to the north, but otherwise, you can only go back to the hall (southwest).&#x000A;&#x000A;A fine layer of dust covers everything, as seems to be true of everything in the house.&#x000A;&#x000A;A tattered tablecloth runs the length of the table, one that you dimly remember seeing before.&#x000A;&#x000A;A big, oval-shaped table takes up most of the room. Even now it is in good shape, a testament to its workmanship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">take tablecloth</command>
+    <result xml:space="preserve">Sending up a cloud of dust, you remove the tablecloth from the table.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">The Kitchen&#x000A;A very mundane kitchen. A hearth stands in the center of the room, the ashes of a fire long since burnt out all that remains of a once busy portion of the house. The pantry is to the west, and the dining room is to the south. The servants' quarters are to the north.&#x000A;&#x000A;A single kitchen knife, slightly rusted, sits on the countertop.&#x000A;&#x000A;Ashes have been scattered by the wind, covering the floor in a fine, dark layer.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">The Servants' Quarters&#x000A;The chamber in which the servants once lived. It  is more plainly decorated than the rest of the house, and understandably so. You can remember many pleasant evenings spent here. The only exit is back to the south.&#x000A;&#x000A;The back door seems to have rotted, on the northern face of the house exposed directly to wind and rain.&#x000A;&#x000A;The sheets, though dusty, are as stainless as the day they were abandoned.&#x000A;&#x000A;Three cots are arranged along the back wall, in exactly the same state as they were when everyone left.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">think</command>
+    <result xml:space="preserve">What a good idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">think about servants</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">think about evenings</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">go to door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">The Kitchen&#x000A;The wind howling down the unprotected chimney makes a mournful sound, one that plays on your nerves. Otherwise, this seems to be a very average kitchen, with a pantry off the western wall and a dining room to the south. The servants' quarters are to the north.&#x000A;&#x000A;Ashes have been scattered by the wind, covering the floor in a fine, dark layer.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">The Dining Room&#x000A;Large and drafty, this is a rather cold room. Once again, you feel as if you are being watched.(Exits to the southwest and the north.)&#x000A;&#x000A;A fine layer of dust covers everything, as seems to be true of everything in the house.&#x000A;&#x000A;A big, oval-shaped table takes up most of the room. Even now it is in good shape, a testament to its workmanship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">The Hall&#x000A;The large, open room makes you feel as if you are being watched. You shiver as the chill air hits you. The staircase leads up into the obscurity of the second floor. There are exits in every direction except the north, the southwest, and the southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">The Dining Room&#x000A;Large and drafty, this is a rather cold room. Once again, you feel as if you are being watched.(Exits to the southwest and the north.)&#x000A;&#x000A;A fine layer of dust covers everything, as seems to be true of everything in the house.&#x000A;&#x000A;A big, oval-shaped table takes up most of the room. Even now it is in good shape, a testament to its workmanship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">The Hall&#x000A;The large, open room makes you feel as if you are being watched. You shiver as the chill air hits you. The staircase leads up into the obscurity of the second floor. There are exits in every direction except the north, the southwest, and the southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">The Foyer&#x000A;A cramped, windowless room at the front of the house. The front door, long since boarded over, blocks any new air from entering, giving the room a suffocating atmosphere. The only way to go seems to be back to the north.&#x000A;&#x000A;A scattering of colourful shards of broken glass cover the floor by the front door. The reds stand out expecially, shining like rubies.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">break glass</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">take glass</command>
+    <result xml:space="preserve">Carefully grasping one of the more intact pieces of glass with your hand-kerchief, you take it with you.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">stare at glass</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">examine glass</command>
+    <result xml:space="preserve">Once a brilliantly coloured stained glass window, the glass is now but a collection of razor sharp fragments.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">think</command>
+    <result xml:space="preserve">What a good idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">think about glass</command>
+    <result xml:space="preserve">It must have happened when the police arrived, though you were being treated by the surgeon, seven miles down the road, by the time they got here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">think about injury</command>
+    <result xml:space="preserve">It was the master that had taken the shot, though you know he had been aiming at your chest. It was only your agility that had saved your life.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">think about master</command>
+    <result xml:space="preserve">Through all of this, all these years, the master is the one thing you can remember properly. A tall man, of middle age, with iron gray hair and a serious face. He walked with a limp, due to an injury sustained in some vague accident he never spoke of. And then, standing at the top of the stairs, staring at you with a cruel look you hadn't thought him capable of until you saw it for yourself.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">think about master</command>
+    <result xml:space="preserve">Through all of this, all these years, the master is the one thing you can remember properly. A tall man, of middle age, with iron gray hair and a serious face. He walked with a limp, due to an injury sustained in some vague accident he never spoke of. And then, standing at the top of the stairs, staring at you with a cruel look you hadn't thought him capable of until you saw it for yourself.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">The Hall&#x000A;A slight, but piercingly cold draft wafts through the cave-like room, which is tastefully, if not coldly, decorated. The staircase leads to the darkness of the second floor, which seems to be observing you somehow. Every direction but the north, the southeast and the southwest has an exit, shrouded in obscurity that makes you very reluctant to enter any of them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">The Parlor&#x000A;A rather small front parlor, with a view of the lawn. Some dusty old furniture is shaded in the darkened corners, like animals waiting to pounce. The room has an odd sense of life to it, and it is certainly not a benevolent existence. The only exit, to the west, seems vaguely threatening.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">think about corners</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">stare at moon</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">look at moon</command>
+    <result xml:space="preserve">The pale moonlight streams through the windows, reminding you of what you've done.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">think about moon</command>
+    <result xml:space="preserve">The same old moon that has doubtless watched millions of events like the one you have experienced.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">think about what I've done</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">think about moon</command>
+    <result xml:space="preserve">The same old moon that has doubtless watched millions of events like the one you have experienced.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">think</command>
+    <result xml:space="preserve">What a good idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">think</command>
+    <result xml:space="preserve">What a good idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">cut</command>
+    <result xml:space="preserve">What do you want to cut?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">arm</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">cu arm</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">cut arm</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">cut some</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">cut self</command>
+    <result xml:space="preserve">*** With shaking hands, you hold the knife to your neck. It hardly takes a moment for you to draw the edge across your throat, bringing a gush of blood to the surface. You barely have the time to realize that you are dying before you pass out from the blood loss. And so it is that you join the other former tenants of the house. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">The Parlor&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Hall&#x000A;The large, cavernous room seems to act as an amplifier to your fevered thoughts, making them so loud that you believe they are going to deafen you permanently. A thousand doors open to you on every side, each of them inviting you into the sweet oblivion of madness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Music Room&#x000A;Fragmented pieces of melodies heard long ago crowd your mind, almost as deafening as the breathing of the hall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The Conservatory&#x000A;The remains of the once vivid plants cling to you as you pass, pushing through the overgrown conservatory. The moon looms large overhead, searingly bright through the glass walls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">take plant</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">examine moon</command>
+    <result xml:space="preserve">The moon stares through the window at you. It's watching. It was watching you then, when you did it, and it sees you now, squirming beneath its impartial eye. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
